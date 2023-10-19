@@ -1,0 +1,569 @@
+@keyframes animate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* 动画 */
+
+
+
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 解决手机浏览器点击有选框的问题  */
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  min-height: 100vh;
+  background-color: #eee;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vmin;
+  height: 60vmin;
+  border-radius: 50%;
+
+  position: relative;
+}
+
+.box .text-13 {
+
+  width: 320%;
+  height: 320%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+  /*   旋转速度再这里改（数字越大转得越慢），注意以下每个都需要改，改到哪里下面有提示 */
+}
+
+.box .text-12 {
+
+  width: 303.5%;
+  height: 303.5%;
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-11 {
+
+  width: 287%;
+  height: 287%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+
+.box .text-10 {
+
+  width: 270.5%;
+  height: 270.5%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-9 {
+
+  width: 254%;
+  height: 254%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-8 {
+
+  width: 237%;
+  height: 237%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-7 {
+
+  width: 220.5%;
+  height: 220.5%;
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-6 {
+
+  width: 203.5%;
+  height: 203.5%;
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-5 {
+
+  width: 187%;
+  height: 187%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-4 {
+
+  width: 170.5%;
+  height: 170.5%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-3 {
+
+  width: 154%;
+  height: 154%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-2 {
+
+  width: 138%;
+  height: 138%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text-1 {
+
+  width: 121%;
+  height: 121%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text0 {
+
+  width: 106%;
+  height: 106%;
+
+
+  position: absolute;
+
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text {
+
+  width: 93%;
+  height: 93%;
+
+  position: absolute;
+
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text2 {
+  width: 81%;
+  height: 81%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+
+}
+
+.box .text3 {
+  width: 71%;
+  height: 71%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text4 {
+  width: 63%;
+  height: 63%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text5 {
+  width: 55%;
+  height: 55%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text6 {
+  width: 49%;
+  height: 49%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text7 {
+  width: 43%;
+  height: 43%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text8 {
+  width: 37%;
+  height: 37%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text9 {
+  width: 31%;
+  height: 31%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+.box .text10 {
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  animation: animate 10s linear infinite;
+}
+
+/* 旋转速度改到这里就ok */
+
+
+
+
+
+/* span标签控制及字体大小 */
+.box .text-13 span {
+
+  font-size: 4.9vmin;
+
+
+  transform-origin: 0 100.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-12 span {
+
+  font-size: 4.9vmin;
+
+
+  transform-origin: 0 95.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-11 span {
+
+  font-size: 4.9vmin;
+
+
+  transform-origin: 0 90.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-10 span {
+
+  font-size: 4.8vmin;
+
+
+  transform-origin: 0 85.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-9 span {
+
+  font-size: 4.8vmin;
+
+
+  transform-origin: 0 80.5vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-8 span {
+
+  font-size: 4.8vmin;
+
+  transform-origin: 0 75.5vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-7 span {
+
+  font-size: 4.5vmin;
+
+
+  transform-origin: 0 70.5vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-6 span {
+
+  font-size: 4.5vmin;
+
+
+  transform-origin: 0 65.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-5 span {
+
+  font-size: 4.5vmin;
+
+
+  transform-origin: 0 60.5vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-4 span {
+
+  font-size: 4.5vmin;
+
+
+  transform-origin: 0 55.5vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-3 span {
+
+  font-size: 4.5vmin;
+
+
+  transform-origin: 0 50.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-2 span {
+
+  font-size: 4.5vmin;
+
+
+  transform-origin: 0 45.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text-1 span {
+
+  font-size: 4vmin;
+
+
+  transform-origin: 0 40vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text0 span {
+
+  font-size: 3.3vmin;
+
+
+  transform-origin: 0 35vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.box .text span {
+
+  font-size: 3vmin;
+
+  transform-origin: 0 31vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.text2 span {
+  font-size: 2vmin;
+
+  transform-origin: 0 27vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.text3 span {
+  font-size: 1.8vmin;
+
+
+  transform-origin: 0 24vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.text4 span {
+  font-size: 1.6vmin;
+
+  transform-origin: 0 21.5vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.text5 span {
+  font-size: 1.4vmin;
+
+  transform-origin: 0 19vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.text6 span {
+  font-size: 1.2vmin;
+
+
+  transform-origin: 0 17vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.text7 span {
+  font-size: 1vmin;
+
+
+  transform-origin: 0 15vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.text8 span {
+  font-size: 1vmin;
+
+  transform-origin: 0 13vmin;
+
+
+  position: absolute;
+  left: 50%;
+}
+
+.text9 span {
+  font-size: 1vmin;
+
+  transform-origin: 0 11vmin;
+
+  position: absolute;
+  left: 50%;
+}
+
+.text10 span {
+  font-size: 1vmin;
+
+  transform-origin: 0 9vmin;
+
+  position: absolute;
+  left: 50%;
+}
